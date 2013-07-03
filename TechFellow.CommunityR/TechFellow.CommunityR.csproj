@@ -182,9 +182,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ForumHub.cs" />
+    <Compile Include="Forums\ClubContextMessage.cs" />
+    <Compile Include="Forums\ForumEventsInitializationModule.cs" />
+    <Compile Include="Forums\ForumHub.cs" />
+    <Compile Include="Forums\OnForumMessageBase.cs" />
+    <Compile Include="Forums\OnForumAddedMessage.cs" />
+    <Compile Include="Forums\OnForumRemovedMessage.cs" />
+    <Compile Include="Forums\OnReplyAddedMessage.cs" />
+    <Compile Include="Forums\OnReplyMessageBase.cs" />
+    <Compile Include="Forums\OnReplyRemovedMessage.cs" />
+    <Compile Include="Forums\OnReplyUpdatedMessage.cs" />
+    <Compile Include="Forums\OnTopicAddedMessage.cs" />
+    <Compile Include="Forums\OnTopicMovedMessage.cs" />
+    <Compile Include="Forums\OnTopicRemovedMessage.cs" />
+    <Compile Include="Forums\OnTopicUpdatedMessage.cs" />
+    <Compile Include="Forums\Tag.cs" />
+    <Compile Include="Forums\TagCollectionExtensions.cs" />
+    <Compile Include="Forums\OnTopicMessageBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ForumEventsInitializationModule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

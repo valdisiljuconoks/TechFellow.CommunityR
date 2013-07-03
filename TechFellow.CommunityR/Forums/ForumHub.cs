@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNet.SignalR;
 
-namespace TechFellow.CommunityR
+namespace TechFellow.CommunityR.Forums
 {
     public class ForumHub : Hub
     {
-        internal const string CommunityClubGroupName = "community-club";
+        internal const string CommunityClubGroupName = "community-club-";
 
         public Task JoinClub(string id)
         {
