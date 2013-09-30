@@ -5,6 +5,7 @@ using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
+using TechFellow.CommunityR.Forums.Models;
 using InitializationModule = EPiServer.Web.InitializationModule;
 
 namespace TechFellow.CommunityR.Forums

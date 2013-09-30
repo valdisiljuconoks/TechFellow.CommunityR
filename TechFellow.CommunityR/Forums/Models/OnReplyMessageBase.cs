@@ -1,4 +1,4 @@
-﻿namespace TechFellow.CommunityR.Forums
+﻿namespace TechFellow.CommunityR.Forums.Models
 {
     public abstract class OnReplyMessageBase : ClubContextMessage
     {
